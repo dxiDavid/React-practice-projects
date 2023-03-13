@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Overpass', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+main{
+  width: 40rem;
+  background-color: rgba(40, 45, 53, 1);
+  background-image: url("./assets/reactjs-icon 2.png");
+  background-repeat: no-repeat;
+  background-size: 18rem;
+  background-position: top 16rem left 31rem;
+}
+
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color: rgba(33, 34, 42, 1);
+  color: white;
+}
+
+.logo{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.logo h3{
+  font-size: 1.65rem;
+  color: rgba(97, 218, 251, 1);
+}
+
+h4{
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.content{
+  padding:3rem 2rem;
+  color: white;
+  font-weight: 600;
+  max-width: 34rem;
+}
+
+h1{
+  font-size: 2.5rem;
+  letter-spacing: 0;
+}
+
+ul{
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-weight: 500;
+}
+
+::marker{
+  color: rgba(97, 218, 251, 1);
+  font-size: 1.6rem;
+}

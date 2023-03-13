@@ -31,7 +31,7 @@ Desktop
 
 ### What I learned
 
-I learned how to style the bullets in unorederd lists by using the ``::marker`` pseoudo selector
+I learned how to style the bullets in unorederd lists by using the ``::marker`` pseudo selector
 
 
 ### Useful resources
